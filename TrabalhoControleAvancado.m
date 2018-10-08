@@ -1,4 +1,4 @@
-    close all
+        close all
     clear 
     clc
     
@@ -160,10 +160,11 @@
     end
     for i=1:1:4
         for j=1:1:4
-            newA(i,j) = newAint(i,5-j); %newA esta na forma canonica controlavel adequada
+            newAcontrol(i,j) = newAint(i,5-j); %newA esta na forma canonica controlavel adequada
         end
     end
-    B = Bint; % B esta na forma canonica controlavel adequada
-    C = Cint; % C esta na forma canonica controlavel adequada
+    Bcontrol = Bint; % B esta na forma canonica controlavel adequada
+    Ccontrol = Cint; % C esta na forma canonica controlavel adequada
+    
     
     
